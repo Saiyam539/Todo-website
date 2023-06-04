@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-j#!2s4w@ak312#ko+fpz%=4k97+1+v%aa0vv-u1a)7h5iqihgj
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["todo-website-production.up.railway.app"]
+ALLOWED_HOSTS = ['.vercel.app','now.sh']
 
 # Application definition
 
