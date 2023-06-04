@@ -2,7 +2,7 @@
     "vercel":2,
     "builds":[
         {
-            "src":"testing/wsgi.py",
+            "src":"Todo/wsgi.py",
             "use":"@vercel/static-build",
             "config":{
                 "distDir":"staticfiles_build"
@@ -16,7 +16,7 @@
     },
     {
         "src":"/(.*)",
-        "dest":"testing/wsgi.py"
+        "dest":"Todo/wsgi.py"
     }
     ]
 }
